@@ -1,0 +1,14 @@
+parameters:
+  subscriptionName: "MyAzureSubscription"
+  subscriptionId: "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"  # Replace with actual subscription ID
+  location: "East US"  # Specify the region where resources will be deployed
+  tags:
+    Environment: "Production"
+    Department: "IT"
+    Project: "CloudMigration"
+    Owner: "TeamName"
+    CostCenter: "12345"
+  resourceGroupName: "MyResourceGroup"
+  enableMonitoring: true  # Set to true to enable monitoring and diagnostics
+  enableSecurityCenter: true  # Set to true to enable Azure Security Center
+  autoCreateResourceGroup: false  # Set to true to automatically create a resource group if it doesn't exist
